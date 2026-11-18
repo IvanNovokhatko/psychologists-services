@@ -8,8 +8,9 @@
   --color-bg-secondary: #f3f3f3;
   --color-button: #54be96;
   --color-button-hover: #36a379;
-  --color-green-light: #54be9633;
+  --color-green-light: rgba(84, 190, 150, 0.2);
   --color-main: #191a15;
+  --color-border: rgba(25, 26, 21, 0.102);
 }
 
 body {
