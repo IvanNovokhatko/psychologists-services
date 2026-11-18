@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: "We help you to reveal your potential, overcome challenges and find a guide in your own life with the help of our experienced psychologists.",
 };
 
-export default function RootLayout({ children, modal, }: LayoutProps<"/">) {
+export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
@@ -25,7 +25,6 @@ export default function RootLayout({ children, modal, }: LayoutProps<"/">) {
         <main>
           {children}
         </main>
-        {modal}
       </body>
     </html>
   );
