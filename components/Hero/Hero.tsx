@@ -8,7 +8,7 @@ import { RiCheckFill } from "react-icons/ri";
 export default function Hero() {
   return (
     <>
-      <section className="pt-[78px]">
+      <section className="min-h-[calc(100dvh-97px)] pt-[78px] bg-bg-primary bg-linear-to-tl from-button/20 to-40%">
         <div className="flex items-center justify-between mx-auto w-full max-w-[1184px]">
           <div>
             <h1 className="mb-5 mt-0 max-w-[595px] font-semibold text-[80px]/[1.02] tracking-tight">The road to the <span className="italic text-button">depths</span> of the human soul</h1>
